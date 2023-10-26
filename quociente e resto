@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    float n1, n2, quociente, resto;
+    int n1, n2, quociente, resto;
 
     printf("Digite o primeiro número inteiro: ");
     scanf("%d", &n1);
