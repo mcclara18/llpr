@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    float num1, num2, num3, num4, produto;
+    
+    printf("Digite o primeiro número: ");
+    scanf("%lf", &num1);
+
+    printf("Digite o segundo número: ");
+    scanf("%lf", &num2);
+
+    printf("Digite o terceiro número: ");
+    scanf("%lf", &num3);
+
+    printf("Digite o quarto número: ");
+    scanf("%lf", &num4);
+
+   
+    produto = num1 * num2 * num3 * num4;
+
+    printf("O produto dos números é: %lf\n", produto);
+
+    return 0;
+}
